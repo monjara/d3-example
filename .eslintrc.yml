@@ -20,5 +20,6 @@ rules:
       ],
     comma-dangle: [ "error", "never" ],
     quotes: [ "error", "single" ],
-    jsx-quotes: [ "error", "prefer-single" ]
+    jsx-quotes: [ "error", "prefer-single" ],
+    react/jsx-props-no-spreading: {"never"}
   }
